@@ -1,5 +1,5 @@
 ## Notes
-pdf-js-trap-poc is a Python proof-of-concept that generates a PDF with embedded JavaScript. When opened in a PDF viewer, the file fires /OpenAction JavaScript, shows credential prompts via app.response, stores the responses in hidden AcroForm fields, and exfiltrates them to a webhook using the PDF's native SubmitForm action — then displays a "GOTCHA" security-awareness message. For authorized testing only.
+pdfXss-gen.py is a Python proof-of-concept that generates a PDF with embedded JavaScript. When opened in a PDF viewer, the file fires `/OpenAction` JavaScript, shows credential prompts via `app.response`, stores the responses in hidden AcroForm fields, and exfiltrates them to a webhook using the PDF's native SubmitForm action — then displays a "GOTCHA" security-awareness message. For authorized testing only.
 
 Read more here: https://portswigger.net/research/portable-data-exfiltration
 
